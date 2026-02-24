@@ -102,7 +102,6 @@ begin
             );
 	
 	-- CONCURRENT STATEMENTS ----------------------------
-	w_7SD_EN_n <= not btnC;
 	-- wire up active-low 7SD anode (active low) to button (active-high)
 	an <= (0 => w_7SD_EN_n, others => '1');
 	-- display 7SD 0 only when button pushed
